@@ -41,14 +41,14 @@ jobs:
         tag_name: v0.2-build-${{ github.run_number }}
         name: Release v0.2 Build ${{ github.run_number }}
         body: |
-          🦅 Rapaces Maroc v0.2 - Automatic Build
+          🦅 Rapaces Maroc v0.2 - Build automatique
           
           **Installation :**
           1. Télécharger app-debug.apk ci-dessous
           2. Installer sur Android 8.0+
           3. Profiter ! 🦅
           
-          Build automatique #${{ github.run_number }}
+          Build #${{ github.run_number }}
         files: app/build/outputs/apk/debug/app-debug.apk
         draft: false
         prerelease: false
